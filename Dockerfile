@@ -1,3 +1,3 @@
 FROM nginx
-RUN yum update -y
+RUN apt-get update -y
 COPY index.html /usr/share/nginx/html
